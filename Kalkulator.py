@@ -9,30 +9,29 @@ while True:
         return a
     if (operacja == "1"):
         a ,b = zapytaj_o_dwie_liczby()
-        print(a+b)
-        
-        
-       
+        print(a+b)      
+             
     elif (operacja =="2"):
-        
-        
+        a, b = zapytaj_o_dwie_liczby()   
         print(a-b)
+
     elif (operacja =="3"):
-       
-        
+        a, b = zapytaj_o_dwie_liczby()
         print(a*b)
+
     elif (operacja =="4"):
-        try:
-            
+        a, b = zapytaj_o_dwie_liczby()
+        try:            
             print(a/b)
         except ZeroDivisionError as Error:
             print("Bledna opreacja , nie dzielimy przez ZERO")
             
     elif (operacja =="5"):
-        
+        a, b = zapytaj_o_dwie_liczby()        
         print(a**b)
+
     elif (operacja =="6"):
-        
+        a = zapyta_o_pierwsza_pierwsza()
         print(a ** 0.5)
     ponowna_oporecacja = input("Czy chcesz wykonac ponowna operacje Tak lub Nie  \n")
     if ponowna_oporecacja == ("Nie") :
