@@ -28,6 +28,10 @@ while True:
     elif (operacja =="6"):
         a = float(input("Podaj pierwsza liczbe: "))
         print(a ** 0.5)
-    
+    ponowna_oporecacja = input("Czy chcesz wykonac ponowna operacje Tak lub Nie  \n")
+    if ponowna_oporecacja == ("Nie") :
+        break
+
+
 
 
